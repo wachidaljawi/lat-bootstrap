@@ -1,11 +1,15 @@
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
+body {
+    background-color: lightgray;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-size: cover;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    background-size: cover;
+
 }
 
 .carousel-caption {
@@ -71,4 +75,31 @@
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
+}
+
+.container-fluid .container-card {
+    margin-top: 75px;
+}
+
+.gambar-tengah {
+    background-image: url(../img/gambar3.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(236, 238, 230);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 75px;
+}
+
+.footer {
+    background-color: black;
+    color: gray;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.footer .center-block a {
+    color: gray;
 }
